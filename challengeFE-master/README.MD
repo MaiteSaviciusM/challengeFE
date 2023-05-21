@@ -1,4 +1,4 @@
-#Challenge - Sprint 02 | Web Development with JavaScript
+# Challenge - Sprint 02 | Web Development with JavaScript
 
 ## Contextualização do problema que será abordado
 Em um mundo cada vez mais poluído, a qualidade do ar tornou-se uma grande preocupação para a saúde pública. A exposição a poluentes do ar pode ter graves consequências para a saúde, especialmente para aqueles que já sofrem de doenças respiratórias. É por isso que este aplicativo é tão importante: ele fornece informações valiosas para ajudar as pessoas a tomar medidas para proteger sua saúde respiratória. 
