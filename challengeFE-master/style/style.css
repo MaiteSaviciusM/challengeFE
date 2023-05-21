@@ -57,3 +57,7 @@ nav a:hover {
 .app{
     width: 100%;
 }
+.date {
+    text-align: center;
+    padding-bottom: 2%;
+}
