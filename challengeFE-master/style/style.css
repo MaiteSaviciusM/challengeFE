@@ -6,7 +6,7 @@ Padronização de cores e fontes - site completo
 Utilização de imagens - logo (nav) e app (index.html)
 */
 
-*{
+* {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -14,20 +14,36 @@ html, body {
 	margin: 0;
 	padding: 0;
 	border: 0;
+    background-color: white;
+
 }
+
+.nav__cor {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+    padding:0;
+    border-radius: 20px;
+    
+}
+
+nav {
+    margin-right: 15rem;
+}
+
 
 .header {
     height: 3.5em;
-    justify-content: space-between;
     background-color: #d7e1fa;
+    justify-content: space-between;
 }
 
-.header nav a {
-    color: #0C61C4;
+a {
     text-decoration: none;
-    background-color: #b8c9f3c3;
-    padding: 7px;
-    border-radius: 5px;
+    width: auto;
 }
 
 .header, .header nav {
@@ -37,27 +53,81 @@ html, body {
     gap: 0.7em;
 }
 
-nav a:hover {
-    background-color: #839eeaac;
-    transition: 0.5s;
+a:hover {
+    color: #839eeaac;
+    transition: 0.2s;
 }
 
 .titulo {
-    margin: 2em;
     text-align: center;
-    font-size: 27px;
+    font-size: 50px;
+    font-weight: 450;
 }
 .paragrafo {
     margin: 0 10%;
     font-size: larger;
 }
+
+#container-saude{
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 83vh;
+}
+
 #appContainer{
+    width: 500px;
     margin: 0 30%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    
 } 
 .app{
-    width: 100%;
+    width: 90%;
+    margin: 1rem;
 }
-.date {
+
+    
+.rodape {
+    background-color: #c8c8c8;
+    height: auto;
+    color: black
+}
+
+.contatos {
+    display: flex;
+    justify-content: space-around;
+    padding: 6rem;
+}
+
+.redes-sociais {
     text-align: center;
-    padding-bottom: 2%;
+}
+
+.logo-redes-sociais {
+    width: 60px;
+}
+
+#rodape-local {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3rem;
+    align-items: center;
+    gap: 2em;
+}
+
+#endereco {
+    font-size: 20px;
+    color: black;
+}
+
+#date {
+    color: white;
 }
